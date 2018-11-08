@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', monospace;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+body.dark {
+  background: #161616;
+}
+
+body.dark * {
+  transition: all .25s ease;
+}
+
+body.dark #options {
+  position: absolute;
+  right: 20px;
+}
+
+body.dark .content-wrapper {
+  background: #161616;
+  border: 1px solid #2b2b2b;
+  border-radius: 25px;
+  height: 100%;
+  margin: 20px auto 0 auto;
+  max-width: 850px;
+  padding: 30px 20px 40px 20px;
+}
+
+body.dark .logo {
+  font-size: 60px;
+  font-style: bold;
+  font-weight: 800 !important;
+  padding: 0 20px 0px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+body.dark .title, body.dark .quote {
+  color: #969696;
+}
+
+body.dark .title {
+  border-bottom: 1px solid #222222;
+  font-size: 55px;
+  font-style: bold;
+  font-weight: 300 !important;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+body.dark .quote-wrapper {
+  min-height: 200px;
+}
+
+body.dark .quote {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  min-height: 190px;
+  outline: none;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+body.dark .person {
+  font-style: italic;
+  font-weight: 400;
+}
+
+body.dark .button-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+body.dark .button-wrapper button {
+  display: inline-block;
+}
+
+body.dark button {
+  background: transparent;
+  border: none;
+  border: 1px solid #5c6b86;
+  border-radius: 15px;
+  color: #5c6b86;
+  display: block;
+  font-size: 16px;
+  margin: 0 20px;
+  padding: 10px 30px;
+}
+
+body.dark button.navy {
+  background: transparent;
+  border: 1px solid #1e1b3b;
+  color: #1e1b3b;
+}
+
+body.dark button.navy:hover {
+  background: #1e1b3b;
+  color: white;
+}
+
+body.dark button.navy:active {
+  background: #3a3758;
+  color: white;
+}
+
+body.dark button.salmon {
+  background: transparent;
+  border: 1px solid #83534e;
+  color: #83534e;
+}
+
+body.dark button.salmon:hover {
+  background: #ff7d6f;
+  color: white;
+}
+
+body.dark button.salmon:active {
+  background: #ff6150;
+  box-shadow: inset 1px 1px 0px #b35757;
+}
+
+body.dark button:hover {
+  background: #4584fa;
+  color: white;
+  cursor: pointer;
+}
+
+body.dark button:active {
+  background: #3068d1;
+  box-shadow: inset 1px 1px 0px #38558a;
+  cursor: pointer;
+}
