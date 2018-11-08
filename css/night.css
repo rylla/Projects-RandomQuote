@@ -4,134 +4,118 @@
   letter-spacing: 1px;
   margin: 0;
 }
+.dark {
+  body.dark {
+    background: rgb(22, 22, 22);
+    * {
+      transition: all .25s ease;
+    }
+  }
+  #options {
+    position: absolute;
+    right: 20px;
 
-body.dark {
-  background: #161616;
-}
-
-body.dark * {
-  transition: all .25s ease;
-}
-
-body.dark #options {
-  position: absolute;
-  right: 20px;
-}
-
-body.dark .content-wrapper {
-  background: #161616;
-  border: 1px solid #2b2b2b;
-  border-radius: 25px;
-  height: 100%;
-  margin: 20px auto 0 auto;
-  max-width: 850px;
-  padding: 30px 20px 40px 20px;
-}
-
-body.dark .logo {
-  font-size: 60px;
-  font-style: bold;
-  font-weight: 800 !important;
-  padding: 0 20px 0px 20px;
-  text-align: center;
-  width: 100%;
-}
-
-body.dark .title, body.dark .quote {
-  color: #969696;
-}
-
-body.dark .title {
-  border-bottom: 1px solid #222222;
-  font-size: 55px;
-  font-style: bold;
-  font-weight: 300 !important;
-  padding: 0 20px 20px 20px;
-  text-align: center;
-  width: 100%;
-}
-
-body.dark .quote-wrapper {
-  min-height: 200px;
-}
-
-body.dark .quote {
-  font-size: 20px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  min-height: 190px;
-  outline: none;
-  padding: 30px;
-  text-align: center;
-  width: 100%;
-}
-
-body.dark .person {
-  font-style: italic;
-  font-weight: 400;
-}
-
-body.dark .button-wrapper {
-  text-align: center;
-  width: 100%;
-}
-
-body.dark .button-wrapper button {
-  display: inline-block;
-}
-
-body.dark button {
-  background: transparent;
-  border: none;
-  border: 1px solid #5c6b86;
-  border-radius: 15px;
-  color: #5c6b86;
-  display: block;
-  font-size: 16px;
-  margin: 0 20px;
-  padding: 10px 30px;
-}
-
-body.dark button.navy {
-  background: transparent;
-  border: 1px solid #1e1b3b;
-  color: #1e1b3b;
-}
-
-body.dark button.navy:hover {
-  background: #1e1b3b;
-  color: white;
-}
-
-body.dark button.navy:active {
-  background: #3a3758;
-  color: white;
-}
-
-body.dark button.salmon {
-  background: transparent;
-  border: 1px solid #83534e;
-  color: #83534e;
-}
-
-body.dark button.salmon:hover {
-  background: #ff7d6f;
-  color: white;
-}
-
-body.dark button.salmon:active {
-  background: #ff6150;
-  box-shadow: inset 1px 1px 0px #b35757;
-}
-
-body.dark button:hover {
-  background: #4584fa;
-  color: white;
-  cursor: pointer;
-}
-
-body.dark button:active {
-  background: #3068d1;
-  box-shadow: inset 1px 1px 0px #38558a;
-  cursor: pointer;
+  }
+  .content-wrapper {
+    background: rgb(22, 22, 22);
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 25px;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    max-width: 850px;
+    padding: 30px 20px 40px 20px;
+  }
+  .logo {
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 800 !important;
+    padding: 0 20px 0px 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .title, .quote {
+    color: rgb(150, 150, 150);
+  }
+  .title {
+    border-bottom: 1px solid #222222;
+    font-size: 55px;
+    font-style: bold;
+    font-weight: 300 !important;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .quote-wrapper {
+    min-height: 200px;
+  }
+  .quote {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    min-height: 190px;
+    outline: none;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .person  {
+    font-style: italic;
+    font-weight: 400;
+  }
+  .button-wrapper {
+    text-align: center;
+    width: 100%;
+  
+    button {
+      display: inline-block;
+    }
+  }
+  button {
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(92, 107, 134);
+    border-radius: 15px;
+    color: rgb(92, 107, 134);
+    display: block;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 10px 30px;
+  
+    &.navy {
+      background: transparent;
+      border: 1px solid rgb(30, 27, 59);
+      color: rgb(30, 27, 59);
+    }
+    &.navy:hover {
+      background:rgb(30, 27, 59);
+      color: rgb(255, 255, 255);
+    }
+    &.navy:active {
+      background:rgb(58, 55, 88);
+      color: rgb(255, 255, 255);
+    }
+    &.salmon {
+      background: transparent;
+      border: 1px solid rgb(131, 83, 78);
+      color: rgb(131, 83, 78); 
+    }
+    &.salmon:hover {
+      background: rgb(255, 125, 111);
+      color: rgb(255, 255, 255);
+    }
+    &.salmon:active {
+      background: rgb(255, 97, 80);
+      box-shadow: inset 1px 1px 0px rgb(179, 87, 87);
+    }
+    &:hover {
+      background: rgb(69, 132, 250);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+    }
+    &:active {
+      background: rgb(48, 104, 209);
+      box-shadow: inset 1px 1px 0px rgb(56, 85, 138);
+      cursor: pointer;
+    }
+  }
 }
