@@ -1,4 +1,4 @@
-# Projects-RandomQuote
+# random-quote-picker
 Repo for freeCodeCamp Front End Projects
 https://rylla.github.io/Projects-RandomQuote
 
