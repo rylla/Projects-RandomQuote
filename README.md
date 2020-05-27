@@ -4,3 +4,5 @@ https://rylla.github.io/random-quote-picker
 
 ## to-do
 - [ ] display alert that says 'copied!' after the quote is copied to the clipboard.
+- [ ] make more portable
+- [ ] create separate text file that is parsed and it's contents used for quotes
